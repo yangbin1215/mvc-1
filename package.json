@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./",
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
